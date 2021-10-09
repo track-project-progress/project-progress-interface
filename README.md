@@ -1,2 +1,2 @@
 # nodejs-project-init
-project start files
+Use this repository as a template when starting your node.js project
