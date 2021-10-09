@@ -9,6 +9,7 @@
   "private": false,
   "devDependencies": {
     "@babel/core": "^7.15.8",
+    "babel-jest": "^27.2.5",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "test-changes": "jest -o-",
     "test": "jest --forceExit --detectOpenHandles || true"
   }
 }
