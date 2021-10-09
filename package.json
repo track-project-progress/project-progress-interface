@@ -19,8 +19,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "test-changes": "jest -o-",
     "dev-test": "jest --watch",
-    "test": "jest --forceExit --detectOpenHandles || true"
+    "test": "jest --forceExit --detectOpenHandles || true",
+    "start": "index.js"
   }
 }
